@@ -20,8 +20,8 @@ function isPalindrome(word) {
     return lowerCaseWord === reversedWord;
 }
 s
-function calculateDiscountedPrice(price, discount) {
-    return price - (price * (discount / 100));
+function calculateDiscountedPrice(originalPrice, discount) {
+    return originalPrice - (originalPrice * (discount / 100));
 }
 
 // This is required for the test to function properly  
